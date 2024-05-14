@@ -58,7 +58,7 @@
             bindings = <
 &bt BT_CLR       &kp LC(LS(TAB))  &kp LC(TAB)          &kp LC(T)            &kp LC(W)
 &rgb_ug RGB_TOG  &kp LC(C)        &kp LC(V)            &kp LG(V)            &kp LG(LS(S))
-&rgb_ug RGB_EFF  &kp TAB          &kp LC(KP_NUMBER_8)  &kp LC(KP_NUMBER_8)  &kp LC(KP_NUMBER_9)
+&rgb_ug RGB_EFF  &kp TAB          &kp LC(KP_NUMBER_7)  &kp LC(KP_NUMBER_8)  &kp LC(KP_NUMBER_9)
 &kp C_MUTE       &trans           &kp LC(KP_NUMBER_4)  &kp LC(KP_NUMBER_5)  &kp LC(KP_NUMBER_6)
 &mo 1            &kp KP_ENTER     &kp LC(KP_NUMBER_1)  &kp LC(KP_NUMBER_2)  &kp LC(KP_NUMBER_3)
 &kp BSPC         &trans           &kp LC(DOT)          &trans               &kp LC(KP_NUMBER_0)
