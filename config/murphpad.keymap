@@ -56,7 +56,7 @@
         default_layer {
             display-name = "default layer";
             bindings = <
-&bt BT_CLR       &kp LC(LS(TAB))  &kp LC(TAB)          &kp LC(LA(C))        &kp LG(D)
+&bt BT_CLR       &kp LC(LS(TAB))  &kp LC(TAB)          &kp LC(T)            &kp LC(LS(T))
 &rgb_ug RGB_TOG  &kp LC(C)        &kp LC(V)            &kp LG(V)            &kp LG(LS(S))
 &rgb_ug RGB_EFF  &kp TAB          &kp LC(KP_NUMBER_8)  &kp LC(KP_NUMBER_8)  &kp LC(KP_NUMBER_9)
 &kp C_MUTE       &trans           &kp LC(KP_NUMBER_4)  &kp LC(KP_NUMBER_5)  &kp LC(KP_NUMBER_6)
