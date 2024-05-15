@@ -70,11 +70,11 @@
         fn_layer {
             display-name = "fn layer";
             bindings = <
-&trans      &trans      &trans               &trans               &trans
-&trans      &kp KP_NUM  &trans               &trans               &kp KP_NUMLOCK
-&trans      &trans      &kp LC(KP_N7)        &kp LC(KP_N8)        &kp LC(KP_N9)
+&trans      &kp LC(F7)  &kp LC(F8)           &kp LC(F9)           &kp LC(F10)
+&trans      &kp LC(F3)  &kp LC(F4)           &kp LC(F5)           &kp LC(F6)
+&trans      &kp LC(F2)  &kp LC(KP_N7)        &kp LC(KP_N8)        &kp LC(KP_N9)
 &bt BT_CLR  &trans      &kp LC(KP_NUMBER_4)  &kp LC(KP_N5)        &kp LC(KP_N6)
-&trans      &trans      &kp LC(KP_N1)        &kp LC(KP_NUMBER_2)  &kp LC(KP_N3)
+&trans      &kp LC(F1)  &kp LC(KP_N1)        &kp LC(KP_NUMBER_2)  &kp LC(KP_N3)
 &kp ESCAPE  &trans      &kp LC(KP_DOT)       &trans               &kp LC(KP_N0)
             >;
 
