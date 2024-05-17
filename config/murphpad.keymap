@@ -56,12 +56,12 @@
         default_layer {
             display-name = "default layer";
             bindings = <
-&bt BT_CLR       &kp LC(LS(TAB))  &kp LC(TAB)  &kp LC(T)     &kp LC(W)
-&rgb_ug RGB_TOG  &kp LC(C)        &kp LC(V)    &kp LG(V)     &kp LG(LS(S))
-&rgb_ug RGB_EFF  &kp LEFT_SHIFT   &kp LA(E)    &kp LA(R)     &kp LA(T)
-&kp C_MUTE       &trans           &kp LA(Q)    &kp UP_ARROW  &kp LA(W)
-&mo 1            &kp RCTRL        &kp LEFT     &kp DOWN      &kp RIGHT
-&kp BSPC         &trans           &kp TAB      &none         &kp ENTER
+&bt BT_CLR       &kp LC(LS(TAB))  &kp LC(TAB)  &kp LC(T)  &kp LC(LA(M))
+&rgb_ug RGB_TOG  &kp LC(C)        &kp LC(V)    &kp LG(V)  &kp LG(LS(S))
+&rgb_ug RGB_EFF  &kp TAB          &kp LA(R)    &kp LA(T)  &kp LA(Y)
+&kp C_MUTE       &trans           &kp LA(Q)    &kp LA(W)  &kp LA(E)
+&mo 1            &kp KP_ENTER     &kp LA(D)    &kp LA(F)  &kp LA(G)
+&kp BSPC         &trans           &kp LA(S)    &none      &kp LA(A)
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
