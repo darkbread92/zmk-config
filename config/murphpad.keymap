@@ -56,7 +56,7 @@
         default_layer {
             display-name = "default layer";
             bindings = <
-&bt BT_CLR       &kp LC(LS(TAB))  &kp LC(TAB)  &kp LC(T)  &kp LC(LA(M))
+&bt BT_CLR       &kp LC(LS(TAB))  &kp LC(TAB)  &kp LC(W)  &kp LC(LA(M))
 &rgb_ug RGB_TOG  &kp LC(C)        &kp LC(V)    &kp LG(V)  &kp LG(LS(S))
 &rgb_ug RGB_EFF  &kp TAB          &kp LA(R)    &kp LA(T)  &kp LA(Y)
 &kp C_MUTE       &trans           &kp LA(Q)    &kp LA(W)  &kp LA(E)
@@ -75,10 +75,21 @@
 &trans      &kp LC(F2)  &kp LC(KP_N7)        &kp LC(KP_N8)        &kp LC(KP_N9)
 &bt BT_CLR  &trans      &kp LC(KP_NUMBER_4)  &kp LC(KP_N5)        &kp LC(KP_N6)
 &trans      &kp LC(F1)  &kp LC(KP_N1)        &kp LC(KP_NUMBER_2)  &kp LC(KP_N3)
-&kp ESCAPE  &trans      &kp LC(KP_DOT)       &trans               &kp LC(KP_N0)
+&mo 2       &trans      &kp LC(KP_DOT)       &trans               &kp LC(KP_N0)
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
+        };
+
+        layer_2 {
+            bindings = <
+&trans  &trans  &trans               &trans               &trans
+&trans  &trans  &trans               &trans               &trans
+&trans  &trans  &kp LA(KP_NUMBER_7)  &kp LA(KP_NUMBER_8)  &kp LA(KP_NUMBER_9)
+&trans  &trans  &kp LA(KP_NUMBER_4)  &kp LA(KP_NUMBER_5)  &kp LA(KP_NUMBER_6)
+&trans  &trans  &kp LA(KP_NUMBER_1)  &kp LA(KP_NUMBER_2)  &kp LA(KP_NUMBER_3)
+&trans  &trans  &kp LA(KP_DOT)       &trans               &kp LA(KP_NUMBER_0)
+            >;
         };
     };
 };
